@@ -1,20 +1,20 @@
-const Profile = (props) => {
+const Profile = props => {
   return (
-    <div>
+    <div className="profile">
       <div>
         <img
           src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
           alt="User avatar"
         />
-        <p>Petra Marica</p>
-        <p>@pmarica</p>
-        <p>Salvador, Brasil</p>
+        <p>{props.username}</p>
+        <p>{`@${props.tag}`}</p>
+        <p>{props.location}</p>
       </div>
 
       <ul>
         <li>
           <span>Followers</span>
-          <span>1000</span>
+          <span>{props.followers}</span>
         </li>
         <li>
           <span>Views</span>
@@ -22,7 +22,7 @@ const Profile = (props) => {
         </li>
         <li>
           <span>Likes</span>
-          <span>3000</span>
+          <span>{props.likes}</span>
         </li>
       </ul>
     </div>
