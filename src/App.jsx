@@ -2,11 +2,12 @@
 import userData from './userData.json';
 
 import './App.css';
-import Profile from './components/profile/Profile';
+import Profile from './components/Profile/Profile';
 
 function App() {
   return (
     <div className="container">
+
       <Profile
         username={userData.username}
         tag={userData.tag}
@@ -16,6 +17,7 @@ function App() {
         views={userData.stats.views}
         likes={userData.stats.likes}
       />
+      
     </div>
   );
 }
