@@ -1,0 +1,63 @@
+.profile {
+   min-width: 400px;
+   border: 4px solid #6d1687ce;
+   border-radius: 30px;
+   overflow: hidden;
+}
+
+.profileInfo {
+   padding: 20px;
+   border-bottom: 3px solid grey;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.profileImage {
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   background-color: rgba(176, 113, 234, 0.614);
+   box-shadow: 0 2px 5px 2px;
+}
+
+.profileName {
+   font-weight: 600;
+   font-size: 28px;
+}
+
+.profileNic {
+   font-size: 20px;
+   color: grey;
+   font-weight: 600;
+}
+
+.profileLocation {
+   color: grey;
+}
+
+.profileStatistic {
+   flex-basis: 100%;
+   background-color: rgba(176, 113, 234, 0.614);;
+   display: flex;
+}
+
+.profileListItem {
+   padding: 30px 0;
+   flex: 0 0 33.333%;
+
+   display: flex;
+   flex-direction: column;
+   row-gap: 15px;
+   align-items: center;
+   justify-content: center;
+}
+
+.profileStatisticTitle {
+   font-weight: 600;
+   font-size: 20px;
+}
+
+.profileStatisticValue {}

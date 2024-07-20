@@ -1,0 +1,36 @@
+.table {
+   min-width: 500px;
+   border: 3px solid #6d1687ce;
+   border-collapse: collapse;
+   border-spacing: 0;
+
+}
+
+.tableHead {
+   background-color: rgba(165, 106, 220, 0.84);
+   padding: 10px;
+}
+
+.tableTitle {
+   font-weight: 600;
+   font-size: 20px;
+
+}
+
+.tableRow {
+   border: 1px solid grey;
+}
+
+.tableRow:nth-child(even) {
+   background-color: rgba(176, 113, 234, 0.614);
+}
+
+
+.tableTitle,
+.tableValue {
+   padding: 10px;
+   border-style: solid;
+   border-width: 1px 1px 1px 1px;
+}
+
+.tableValue {}
